@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>xin</title>
+
+    <style>
+        body, html{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            min-width: 320px;
+        }
+
+        body{
+            overflow-y: hidden;
+        }
+
+        .panel{
+            width: 50%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        #editor{
+            float: left;
+        }
+
+        #preview{
+        }
+
+        .split-line{
+            width: 1px;
+            height: 100%;
+            border-left: 1px solid #ddd;
+            position: absolute;
+            top: 0;
+            left: 50%;
+        }
+
+        .base-line{
+            width: 100%;
+            height: 10px;
+            border-bottom: 1px solid rgba(221, 221, 221, 0.37);
+            position: absolute;
+            top: 200px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<script src="https://cdn.bootcss.com/localforage/1.7.1/localforage.min.js"></script>
+<script src="https://cdn.bootcss.com/lodash.js/4.17.10/lodash.min.js"></script>
+
+<!--<div class="base-line"></div>-->
+<iframe id="editor" class="panel" frameborder="0"></iframe>
+<div class="split-line"></div>
+<iframe id="preview" class="panel" frameborder="0"></iframe>
+
+<script src="main.a9cade19da1fcd829cc9.js"></script></body>
+</html>
