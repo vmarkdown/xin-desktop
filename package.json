@@ -1,23 +1,21 @@
 {
-  "name": "electron-quick-start",
-  "version": "0.0.1",
-  "description": "A minimal Electron application",
+  "name": "xin-desktop",
+  "version": "0.0.2",
+  "description": "Free, open-source, full-featured Markdown editor",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "app": "electron-packager ./xin-desktop xin --platform=mas --app-version=0.0.1 --out=./app --overwrite",
-    "dmg": "electron-installer-dmg xin.app xin"
+    "app": "electron-packager ../xin-desktop xin --platform=mas --app-version=0.0.2 --out=./app --overwrite --icon=./assets/icons/icon.icns",
+    "dmg": "electron-installer-dmg ./app/xin-mas-x64/xin.app xin"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/vmarkdown/xin-desktop",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "markdown",
+    "editor",
+    "Electron"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "yucopowo",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^2.0.0"
   }

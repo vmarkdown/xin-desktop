@@ -1,0 +1,31 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_2_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="0"/>
+  </filter>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_14">
+   <stop offset="0" stop-color="#000"/>
+   <stop offset="1" stop-color="#ffffff"/>
+  </linearGradient>
+  <linearGradient id="svg_26" x1="0" y1="0.632813" x2="0.878906" y2="0.246094">
+   <stop offset="0.125" stop-color="#ffffff"/>
+   <stop stop-color="#ffffff" offset="0.417969"/>
+   <stop offset="0.4375" stop-color="#ffffff"/>
+   <stop stop-color="#000000" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="514" height="514" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke-opacity="0.07" ry="256" rx="256" id="svg_2" cy="257" cx="256" stroke-width="0" fill="#2d2c2c" stroke="url(#svg_14)" filter="url(#svg_2_blur)"/>
+  <text fill="url(#svg_26)" stroke-width="0" stroke-opacity="0.07" fill-opacity="0.86" x="176.357084" y="188.471327" id="svg_3" font-size="200" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(1.9912794828414917,0,0,1.7805530722645107,-227.9633035697043,43.45381240147837) " stroke="url(#svg_14)" font-weight="bold">X</text>
+  <line fill="none" stroke="url(#svg_14)" stroke-width="1.5" stroke-opacity="0.07" x1="249.5" y1="334.4375" x2="258.5" y2="334.4375" id="svg_11" stroke-linejoin="null" stroke-linecap="null"/>
+  <line fill="none" stroke="url(#svg_14)" stroke-width="1.5" stroke-opacity="0.07" x1="282.5" y1="307.4375" x2="268.5" y2="307.4375" id="svg_13" stroke-linejoin="null" stroke-linecap="null"/>
+  <rect fill="#2d2c2c" stroke-width="0" stroke-opacity="0.07" x="245.999999" y="185.999997" width="20" height="140" id="svg_27" stroke="url(#svg_14)"/>
+  <rect stroke="url(#svg_14)" id="svg_1" height="20" width="100" y="238" x="206" fill-opacity="null" stroke-opacity="0.07" stroke-width="0" fill="#2d2c2c"/>
+ </g>
+</svg>

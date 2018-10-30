@@ -10,8 +10,12 @@ npm install
 "electron-prebuilt": "^1.4.13"
     
 ### create app
+cnpm install -g electron-packager
 "app": "electron-packager ./xin-desktop xin --platform=mas --app-version=0.0.1 --out=./app --overwrite",
 
 ### create dmg
 "dmg": "electron-installer-dmg xin.app xin"
-    
+
+### create icon
+https://editor.method.ac/
+https://iconverticons.com/online/
