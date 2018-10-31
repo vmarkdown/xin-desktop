@@ -1,6 +1,6 @@
 {
   "name": "xin-desktop",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Free, open-source, full-featured Markdown editor",
   "main": "main.js",
   "scripts": {
