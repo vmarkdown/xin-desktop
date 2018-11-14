@@ -14,6 +14,7 @@ cnpm install -g electron-packager
 "app": "electron-packager ./xin-desktop xin --platform=mas --app-version=0.0.1 --out=./app --overwrite",
 
 ### create dmg
+cnpm install -g electron-installer-dmg
 "dmg": "electron-installer-dmg xin.app xin"
 
 ### create icon

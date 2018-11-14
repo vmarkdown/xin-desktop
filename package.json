@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "app": "electron-packager ../xin-desktop xin --platform=mas --app-version=0.0.2 --out=./app --overwrite --icon=./assets/icons/icon.icns",
+    "first-build": "ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm run app",
+    "app": "electron-packager ../xin-desktop xin --platform=mas --app-version=0.0.4 --out=./app --overwrite --icon=./assets/icons/icon.icns",
     "dmg": "electron-installer-dmg ./app/xin-mas-x64/xin.app xin"
   },
   "repository": "https://github.com/vmarkdown/xin-desktop",
@@ -17,6 +18,6 @@
   "author": "yucopowo",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^2.0.0"
+    "electron": "^3.0.9"
   }
 }
