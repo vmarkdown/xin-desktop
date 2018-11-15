@@ -61,3 +61,5 @@ typings/
 .next
 /app/
 /bak/
+/yarn.lock
+/package-lock.json
