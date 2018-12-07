@@ -21,7 +21,7 @@ function createWindow() {
         show: true,
         icon: path.resolve(__dirname, 'assets/icons/icon.ico'),
         // icon: './assets/icons/64x64.png',
-        // titleBarStyle: 'hidden'
+        titleBarStyle: 'hidden'
     });
 
     // and load the index.html of the app.
