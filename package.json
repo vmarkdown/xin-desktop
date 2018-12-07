@@ -7,6 +7,7 @@
     "start": "electron .",
     "first-build": "ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm run app",
     "app": "electron-packager ../xin-desktop xin --platform=mas --app-version=0.0.4 --out=./app --overwrite --icon=./assets/icons/icon.icns",
+    "win": "electron-packager ../xin-desktop xin --platform=win32 --app-version=0.0.4 --out=./app --overwrite",
     "dmg": "electron-installer-dmg ./app/xin-mas-x64/xin.app xin"
   },
   "repository": "https://github.com/vmarkdown/xin-desktop",
